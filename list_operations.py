@@ -9,11 +9,11 @@ print('\n')
     
 for var in range(len(listed)):
     if(type(listed[var]) == int):
-        print('int: ',sep = '\t')
+        print('int: ',end = '\t')
         print(listed[var])
         listed[var] = listed[var] + 10
     if(type(listed[var]) == str):
-        print('Str: ',sep = '\t')
+        print('Str: ',end = '\t')
         print(listed[var])
         if(listed[var].isalpha()):
             if(listed[var].isupper()):
